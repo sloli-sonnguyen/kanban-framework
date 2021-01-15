@@ -31,7 +31,6 @@ function kanbanRender() {
     for (var i = 0; i < removeBtns.length; i++) {
         removeBtns[i].addEventListener('click', removeTask, false);
     }
-    console.log(removeBtns);
     //
 
     saveBtns = document.getElementsByClassName('saveBtn');
@@ -39,7 +38,6 @@ function kanbanRender() {
         saveBtns[i].addEventListener('click', saveTask, false);
     }
 
-    console.log(saveBtns);
 
     //
     kanban.todoBoard.addEventListener('drop', drop, false);
