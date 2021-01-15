@@ -1,0 +1,169 @@
+html {
+    font-family: sans-serif;
+    font-size: 16px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fad586;
+}
+.title {
+    text-align: center;
+    margin: 80px 0px;
+    color: #6a6a69;
+}
+
+.kanban {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.kanban__col {
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+
+    width: 32%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.kanban__title {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* margin: 20px 20px 0px 20px; */
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* padding: 20px 0px; */
+
+    text-indent: 10px;
+    color: white;
+    border-bottom: 3px solid;
+    border-radius: 5px;
+}
+
+.kanban__count {
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 2px solid rgb(197, 195, 195);
+}
+
+.todo-bg {
+    background-color: tomato;
+}
+
+.doing-bg {
+    background-color: #ea9b05;
+}
+
+.done-bg {
+    background-color: #55a016;
+}
+
+.todo-border-color {
+    border-color: tomato !important;
+}
+
+.doing-border-color {
+    border-color: #ea9b05 !important;
+}
+
+.done-border-color {
+    border-color: #55a016 !important;
+}
+
+.kanban__box {
+    margin: 20px;
+    margin-bottom: 0;
+}
+
+.kanban__item {
+    width: 100%;
+    height: 80px;
+    resize: none;
+    font-size: 20px;
+
+    border: 1px solid;
+    border-left: 6px solid;
+    border-radius: 5px;
+
+    outline-color: rgb(6, 100, 100);
+    margin-bottom: 10px;
+
+    padding-top: 5px;
+    text-indent: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+.addBtn {
+    outline: none;
+    border: none;
+
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+    color: white;
+    background-color: white;
+    border-radius: 4px;
+
+    transition: 0.3s;
+}
+
+.addBtn i {
+    color: #d8d7d7;
+    transition: 0.3s;
+}
+
+.addBtn:hover {
+    margin-left: 20px;
+    background-color: #85a0f1;
+}
+
+.addBtn:hover i {
+    color: white;
+}
+
+.wrap-item {
+    position: relative;
+}
+
+.removeBtn,
+.saveBtn {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    height: 20px;
+    width: 30px;
+
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+
+    outline: none;
+    border: none;
+    border-radius: 2px;
+
+    display: none;
+}
+
+.removeBtn {
+    background-color: #e75776;
+}
+.saveBtn {
+    background-color: #30b359;
+    transform: translateX(-100%);
+}
+.wrap-item:hover .removeBtn,
+.wrap-item:hover .saveBtn {
+    display: block;
+}
