@@ -2,6 +2,7 @@ html {
     font-family: sans-serif;
     font-size: 16px;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@ html {
 body {
     background-color: #fad586;
 }
+
 .title {
     text-align: center;
     margin: 80px 0px;
@@ -96,7 +98,6 @@ body {
 
     outline-color: rgb(6, 100, 100);
     margin-bottom: 10px;
-
     padding-top: 5px;
     text-indent: 5px;
 }
@@ -104,6 +105,7 @@ body {
 button {
     cursor: pointer;
 }
+
 .addBtn {
     outline: none;
     border: none;
@@ -115,7 +117,6 @@ button {
     color: white;
     background-color: white;
     border-radius: 4px;
-
     transition: 0.3s;
 }
 
@@ -152,17 +153,18 @@ button {
     outline: none;
     border: none;
     border-radius: 2px;
-
     display: none;
 }
 
 .removeBtn {
     background-color: #e75776;
 }
+
 .saveBtn {
     background-color: #30b359;
     transform: translateX(-100%);
 }
+
 .wrap-item:hover .removeBtn,
 .wrap-item:hover .saveBtn {
     display: block;
