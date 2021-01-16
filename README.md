@@ -1,2 +1,2 @@
 # Website quản lý công việc theo phương pháp Kanban
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+[![Demo CountPages alpha](https://share.gifyoutube.com/KzB6Gb.gif)]
