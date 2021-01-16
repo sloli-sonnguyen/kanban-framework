@@ -15,6 +15,6 @@ Xậy dựng website quản lý công việc theo phương pháp Kanban
 - Lưu dữ liệu trên localStorage
 
 ## Cài đặt
-- B1: Kéo (clone) repo này về máy
+- B1: Tải (clone) repo này về máy
 - B2: Chạy file index.html
 
