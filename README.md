@@ -1,7 +1,9 @@
 # Kanban website
 Xậy dựng website quản lý công việc theo phương pháp Kanban
 
-![Demo](https://www.upsieutoc.com/images/2021/01/16/image4dc87414f25a6b40.png)https://youtu.be/6G-s-q_piAE
+![Demo](https://www.upsieutoc.com/images/2021/01/16/image4dc87414f25a6b40.png)
+
+Link video: https://youtu.be/6G-s-q_piAE
 
 ## Lưu ý
 - Làm website này với mục đich rèn luyện HTML, CSS, JavaScript
