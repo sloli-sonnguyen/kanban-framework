@@ -10,30 +10,35 @@
     <title>Ứng dụng quản lý Kanban</title>
 </head>
 <body>
+    <!-- Tiêu đề -->
     <h1 class="title">Ứng dụng quản lý kanban</h1>
+    <!-- Kanban -->
     <div class="kanban">
+        <!-- Cột hiển thị các task nhiệm vụ -->
         <div id="todoColumn" name="todo" class="kanban__col">
             <h3 class="kanban__title todo-bg">Nhiệm vụ<span class="kanban__count">3</span></h3>
             <div class="kanban__box">
-                <textarea class="kanban__item todo-border-color"></textarea>
+                <!-- <textarea class="kanban__item todo-border-color"></textarea> -->
             </div>
             <button class="addBtn" onclick="addNewTask('todo')"><span class="wrap-icon"><i
                         class="fas fa-plus"></i></span> Thêm
                 mới</button>
         </div>
+        <!-- Cột hiển thị các task đang làm -->
         <div id="doingColumn" name="doing" class="kanban__col">
             <h3 class="kanban__title doing-bg">Đang làm<span class="kanban__count">2</span></h3>
             <div class="kanban__box">
-                <textarea class="kanban__item doing-border-color"></textarea>
+                <!-- <textarea class="kanban__item doing-border-color"></textarea> -->
             </div>
             <button class="addBtn" onclick="addNewTask('doing')"><span class="wrap-icon"><i
                         class="fas fa-plus"></i></span> Thêm
                 mới</button>
         </div>
+        <!-- Cột hiển thị các task đã hoàn thành -->
         <div id="doneColumn" name="done" class="kanban__col">
             <h3 class="kanban__title done-bg">Hoàn thành<span class="kanban__count">8</span></h3>
             <div class="kanban__box">
-                <textarea class="kanban__item done-border-color"></textarea>
+                <!-- <textarea class="kanban__item done-border-color"></textarea> -->
             </div>
             <button class="addBtn" onclick="addNewTask('done')"><span class="wrap-icon"><i
                         class="fas fa-plus"></i></span> Thêm
